@@ -1,10 +1,7 @@
-﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using LibApp_Gr2.Models;
+using LibApp.Models;
 
-namespace LibApp_Gr2.ViewModels
+namespace LibApp.ViewModels
 {
     public class RandomBookViewModel
     {

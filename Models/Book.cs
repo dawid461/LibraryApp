@@ -1,13 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LibApp_Gr2.Models
+namespace LibApp.Models
 {
     public class Book
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-    }
+		[Required]
+		[StringLength(255)]
+		public string Name { get; set; }
+		[Required]
+		public string AuthorName { get; set; }
+		[Required]
+		public Genre Genre { get; set; }
+		public byte GenreId { get; set; }
+		public DateTime DateAdded { get; set; }
+		public DateTime ReleaseDate { get; set; }
+		public int NumberInStock { get; set; }
+		public int NumberAvailable { get; set; }
+	}
+      
 }

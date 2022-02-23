@@ -1,5 +1,6 @@
-﻿using LibApp_Gr2.Models;
+﻿using LibApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LibApp_Gr2.Controllers
+namespace LibApp.Controllers
 {
     public class HomeController : Controller
     {
