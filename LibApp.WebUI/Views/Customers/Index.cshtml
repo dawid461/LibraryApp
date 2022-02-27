@@ -1,0 +1,52 @@
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var accessType = User.IsInRole(RoleEnum.Owner.ToString()) ? "Edit" : "View";
+}
+
+<h2>Customers</h2>
+
+@if (accessType == "Edit")
+{
+    <div class="row mb-5">
+        <div class="col-12">
+            <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-danger btn-sm">
+                <i class="fa fa-plus"></i> Create new customer
+            </a>
+        </div>
+    </div>
+}
+
+<div class="row">
+    <div class="col-12 position-relative">
+        <table id="customers" class="table table-sm">
+            <thead>
+                <tr>
+                    <th>Customer</th>
+                    <th>Email address</th>
+                    <th>Membership type</th>
+                    <th>Birthdate</th>
+                    <th style="width: 10%">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function(){
+            customersView.initialize("@accessType");
+            customersView.attachEvents();
+        })
+    </script>
+
+    @if(TempData["Message"] != null) {
+        <script>
+            bootstrapAlert("Success", "@TempData["Message"]", "success")
+        </script>    
+    }
+}

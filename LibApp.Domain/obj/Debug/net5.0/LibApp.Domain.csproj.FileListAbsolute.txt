@@ -1,0 +1,12 @@
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\bin\Debug\net5.0\LibApp.Domain.deps.json
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\bin\Debug\net5.0\LibApp.Domain.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\bin\Debug\net5.0\ref\LibApp.Domain.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\bin\Debug\net5.0\LibApp.Domain.pdb
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\obj\Debug\net5.0\LibApp.Domain.csprojAssemblyReference.cache
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\obj\Debug\net5.0\LibApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\obj\Debug\net5.0\LibApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\obj\Debug\net5.0\LibApp.Domain.AssemblyInfo.cs
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\obj\Debug\net5.0\LibApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\obj\Debug\net5.0\LibApp.Domain.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\obj\Debug\net5.0\ref\LibApp.Domain.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Domain\obj\Debug\net5.0\LibApp.Domain.pdb

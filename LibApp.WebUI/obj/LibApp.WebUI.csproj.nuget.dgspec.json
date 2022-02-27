@@ -1,0 +1,390 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.WebUI\\LibApp.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Application\\LibApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Application\\LibApp.Application.csproj",
+        "projectName": "LibApp.Application",
+        "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Application\\LibApp.Application.csproj",
+        "packagesPath": "C:\\Users\\Dawid Czuba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dawid Czuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Domain\\LibApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Domain\\LibApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Domain\\LibApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Domain\\LibApp.Domain.csproj",
+        "projectName": "LibApp.Domain",
+        "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Domain\\LibApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dawid Czuba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dawid Czuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Persistence\\LibApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Persistence\\LibApp.Persistence.csproj",
+        "projectName": "LibApp.Persistence",
+        "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Persistence\\LibApp.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Dawid Czuba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dawid Czuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Application\\LibApp.Application.csproj": {
+                "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Application\\LibApp.Application.csproj"
+              },
+              "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Domain\\LibApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Domain\\LibApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.WebUI\\LibApp.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.WebUI\\LibApp.WebUI.csproj",
+        "projectName": "LibApp.WebUI",
+        "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.WebUI\\LibApp.WebUI.csproj",
+        "packagesPath": "C:\\Users\\Dawid Czuba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dawid Czuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Application\\LibApp.Application.csproj": {
+                "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Application\\LibApp.Application.csproj"
+              },
+              "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Persistence\\LibApp.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Dawid Czuba\\Desktop\\zaliczenia uczelnia 2022\\projekt asp.net\\ASP-LibApp-main\\ASP-LibApp-main\\LibApp.Persistence\\LibApp.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Bootbox.JS": {
+              "target": "Package",
+              "version": "[5.5.2, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "jquery.datatables": {
+              "target": "Package",
+              "version": "[1.10.15, )"
+            },
+            "toastr": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "twitter.typeahead": {
+              "target": "Package",
+              "version": "[0.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+Email = david.user@mail.com
+password = haslo1234		
+
+Email = david.manager@mail.com
+password = haslo1234     
+
+Email = david.owner@mail.com
+password = haslo1234
+          

@@ -1,0 +1,15 @@
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\LibApp.Application.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\ref\LibApp.Application.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\LibApp.Application.pdb
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\bin\Debug\net5.0\LibApp.Application.deps.json
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\bin\Debug\net5.0\LibApp.Application.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\bin\Debug\net5.0\ref\LibApp.Application.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\bin\Debug\net5.0\LibApp.Application.pdb
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\bin\Debug\net5.0\LibApp.Domain.dll
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\bin\Debug\net5.0\LibApp.Domain.pdb
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\LibApp.Application.csprojAssemblyReference.cache
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\LibApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\LibApp.Application.AssemblyInfoInputs.cache
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\LibApp.Application.AssemblyInfo.cs
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\LibApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\Dawid Czuba\Desktop\zaliczenia uczelnia 2022\projekt asp.net\ASP-LibApp-main\ASP-LibApp-main\LibApp.Application\obj\Debug\net5.0\LibApp.Application.csproj.CopyComplete

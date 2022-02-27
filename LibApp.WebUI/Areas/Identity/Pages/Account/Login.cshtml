@@ -1,0 +1,60 @@
+﻿@page
+@model LibApp.WebUI.Areas.Identity.Pages.Account.LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "_UnauthorizedLayout";
+}
+
+<style>
+    html,
+    body {
+        height: 100%;
+    }
+    body {
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        -ms-flex-pack: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #FCFCFC;
+    }
+
+    .form-login {
+        width: 100%;
+        max-width: 300px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+</style>
+
+<div class="container">
+    <form id="account" method="post" class="form-login">
+        <h5 class="text-center">LibApp - Sign in</h5>
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Input.Email"></label>
+            <input asp-for="Input.Email" class="form-control" />
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Input.Password"></label>
+            <input asp-for="Input.Password" class="form-control" />
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-danger btn-sm btn-block">Log in</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}
