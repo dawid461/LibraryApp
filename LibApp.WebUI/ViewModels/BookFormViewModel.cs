@@ -23,27 +23,27 @@ namespace LibApp.WebUI.ViewModels
         public int Id { get; set; }
 
         [Display(Name = "Nazwa")]
-        [Required(ErrorMessage = "Pole '{0}' jest wymagane !")]
+        [Required(ErrorMessage = "Field '{0}' is required !")]
         [StringLength(255)]
         public string Name { get; set; }
 
         [Display(Name = "Gatunek")]
-        [Required(ErrorMessage = "Pole '{0}' jest wymagane !")]
+        [Required(ErrorMessage = "Field '{0}' is required !")]
         public byte GenreId { get; set; }
 
         [Display(Name = "Data wydania")]
-        [Required(ErrorMessage = "Pole '{0}' jest wymagane !")]
+        [Required(ErrorMessage = "Field '{0}' is required !")]
         public DateTime ReleaseDate { get; set; }
 
         public DateTime DateAdded { get; set; }
 
         [Display(Name = "Autor")]
-        [Required(ErrorMessage = "Pole '{0}' jest wymagane !")]
+        [Required(ErrorMessage = "Field '{0}' is required !")]
         public string AuthorName { get; set; }
 
-        [Display(Name = "Ilość książek na stanie")]
-        [Required(ErrorMessage = "Pole '{0}' jest wymagane !")]
-        [Range(1, 20, ErrorMessage = "Ilość książek na stanie musi być w zakresie od {1} do {2}")]
+        [Display(Name = "Identical quantity in stock")]
+        [Required(ErrorMessage = "Field '{0}' is required !")]
+        [Range(1, 20, ErrorMessage = "The number of books in stock must be between {1} and {2}")]
         public int NumberInStock { get; set; }
 
         public int NumberAvailable { get; set; }

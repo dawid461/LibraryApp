@@ -24,7 +24,7 @@ namespace LibApp.WebUI.ViewModels
         {
             get
             {
-                return Id != 0 ? "Edit Customer" : "New Cusomter";
+                return Id != 0 ? "Edit Customer" : "New Customer";
             }
         }
 

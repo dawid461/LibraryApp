@@ -170,7 +170,7 @@ var customersView = (function () {
                 {
                     data: "membershipType.name",
                     render: function (data) {
-                        return `<span class="badge badge-info">${data}</span>`
+                        return `<span>${data}</span>`
                     }
                 },
                 {
